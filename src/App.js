@@ -31,10 +31,7 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            {/* <Route path="/registeredActivity">
-              <RegisteredActivity></RegisteredActivity>
-            </Route> */}
-                        <Route path="/allActivity">
+            <Route path="/allActivity">
               <AllActivity></AllActivity>
             </Route>
             <Route path="/login">

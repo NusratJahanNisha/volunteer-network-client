@@ -8,7 +8,6 @@ const Admin = () => {
         history.push(`/event`);
     }
     const [registeredUser, setRegisteredUser] = useState([]);
-    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
         fetch(`http://localhost:5000/activityAll`)
@@ -35,15 +34,19 @@ const Admin = () => {
                     <div >
                         {
                             registeredUser.map(
-                            register => <li style={{ boxShadow: "2px 2px 2px lightGrey", margin: "10px" }}> {register.name} -----{register.email} ----- {register.activity} -----{register.selectedDate}</li>
+                                register => <b><p style={{ boxShadow: "2px 2px 2px lightGrey", margin: "10px" }}>
+                                    {register.name} <span style={{ color: "grey" }}> {register.email} </span>  {register.activity} <span style={{ color: "grey" }}> {register.selectedDate} </span>
+                                </p></b>
+
                             )
+
                         }
                     </div>
 
                 </div>
 
             </div>
-        </div>
+        </div >
     );
 };
 

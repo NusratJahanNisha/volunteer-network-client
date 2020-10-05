@@ -1,6 +1,5 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import './Activity.css';
 
 const Activity = (props) => {
     const { activityImage, activityName } = props.activity;

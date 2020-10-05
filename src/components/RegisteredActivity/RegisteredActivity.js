@@ -34,9 +34,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const RegisteredActivity = (props) => {
-    const { activity, selectedDate, email } = props.register;
+    const { activity, selectedDate, email, _id } = props.register;
     const classes = useStyles();
-
+    
     return (
         <div className="container" >
            
@@ -71,7 +71,7 @@ const RegisteredActivity = (props) => {
                                     </Grid>
                                     <Grid item>
                                         <Typography variant="body2" style={{ cursor: 'pointer', marginLeft: "180px" }}>
-                                            <Button variant="contained">Cancel</Button>
+                                            <Button variant="contained"  >Cancel</Button>
                                         </Typography>
                                     </Grid>
                                 </Grid>
