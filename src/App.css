@@ -1,3 +1,11 @@
+.home-bg{
+  background-image: url("https://i.ibb.co/933kbY9/extra-Volunteer.png");
+  /* opacity:0.9; */
+  /* background-size: cover; */
+  /* background-blend-mode: luminosity; */
+  /* font-family: 'Dosis'; */
+  margin: 0;
+}
 .App {
   text-align: center;
 }
