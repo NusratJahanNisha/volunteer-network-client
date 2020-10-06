@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 const Header = () => {
     const [event, setEvent] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/event`)
+        fetch(`https://whispering-fjord-15086.herokuapp.com/event`)
             .then(res => res.json())
             .then(data => setEvent(data));
     }, []

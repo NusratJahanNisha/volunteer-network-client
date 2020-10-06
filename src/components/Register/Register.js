@@ -33,7 +33,7 @@ const Register = () => {
     console.log(newRegisteredActivity);
     console.log(activityImage,activityName)
 
-    fetch("http://localhost:5000/addNewUser", {
+    fetch("https://whispering-fjord-15086.herokuapp.com/addNewUser", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newRegisteredActivity)

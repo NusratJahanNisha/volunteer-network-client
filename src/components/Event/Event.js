@@ -19,7 +19,7 @@ const Event = () => {
 
     const onSubmit = data => {    
         const newEvent = { ...data}
-        fetch(`http://localhost:5000/addEvent`, {
+        fetch(`https://whispering-fjord-15086.herokuapp.com/addEvent`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(newEvent)

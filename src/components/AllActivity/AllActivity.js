@@ -10,7 +10,7 @@ const AllActivity = () => {
     console.log(register);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/activity?email=` + loggedInUser.email)
+        fetch(`https://whispering-fjord-15086.herokuapp.com/activity?email=` + loggedInUser.email)
             .then(res => res.json())
             .then(data => setRegister(data));
     }, [])

@@ -10,7 +10,7 @@ const Admin = () => {
     const [registeredUser, setRegisteredUser] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/activityAll`)
+        fetch(`https://whispering-fjord-15086.herokuapp.com/activityAll`)
             .then(res => res.json())
             .then(data => setRegisteredUser(data));
     }, []
