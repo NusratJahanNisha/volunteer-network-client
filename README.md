@@ -1,3 +1,28 @@
+# Volunteer Network Client
+## [Live Website ](https://volunteer-network-client-a51f7.web.app/)
+## [Backend Repository](https://github.com/NusratJahanNisha/volunteer-server)
+## Features
+- This is a Social Event Management Application.
+- Engineered the full-stack website so that users can choose any volunteer work.
+- Using the firebase authentication system, user can see all his/her registered volunteer work. 
+- Besides admin can see all the user details and can create an event for everyone which is shown on the home page. 
+- All the interaction information is saved in the database and is loaded from the database.MongoDB is used in this purpose. 
+## Technology
+  - React
+  - React Router
+  - Node.js
+  - MongoDB
+  - Firebase Authentication
+  - Heroku
+  - Material-UI
+  - Bootstrap
+  - CSS3
+  - HTML5 
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,4 +91,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# volunteer-network-client
+
